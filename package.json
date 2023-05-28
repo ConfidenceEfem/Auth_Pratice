@@ -1,0 +1,51 @@
+{
+  "name": "ts_node_demo",
+  "version": "1.0.0",
+  "description": "ts_node_demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only ./src/server.ts"
+  },
+  "author": "Joseph Omogbehin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.14.6",
+    "@types/nodemailer": "^6.4.8",
+    "@types/otp-generator": "^4.0.0",
+    "cookie-parser": "^1.4.6",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/speakeasy": "^2.0.7",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0",
+    "helmet": "^6.0.1",
+    "joi": "^17.8.3",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.1",
+    "nodemailer": "^6.9.2",
+    "otp-generator": "^4.0.1",
+    "speakeasy": "^2.0.0",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13",
+    "validator": "^13.9.0"
+  }
+}
